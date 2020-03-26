@@ -10,7 +10,7 @@ source:
   sha256: 293ca8ca167c77843a165e6032f18ea50b96f964264087ce15dabde4bf0a270e
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - xarray
     - dask
     - cartopy
-    - matplotlib
+    - matplotlib-base
     - seaborn
     - pyresample
     - python-stratify
