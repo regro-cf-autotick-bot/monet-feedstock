@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/noaa-oar-arl/MONET/archive/{{ version }}.tar.gz
-  sha256: 293ca8ca167c77843a165e6032f18ea50b96f964264087ce15dabde4bf0a270e
+  sha256: ab30e3aed0c18fed8d69dc9570674b9ca475034b7a0eaae628b3c9c181087f3b
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
