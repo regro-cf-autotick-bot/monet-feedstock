@@ -25,7 +25,7 @@ requirements:
     - xarray
     - dask
     - cartopy
-    - matplotlib
+    - matplotlib-base
     - seaborn
     - pyresample
     - python-stratify
