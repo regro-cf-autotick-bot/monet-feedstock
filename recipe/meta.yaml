@@ -14,7 +14,7 @@ build:
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build: 
+  build:
   host:
     - python
     - pip
@@ -31,13 +31,12 @@ requirements:
     - python-stratify
     - pydecorate
     - xesmf  # [not win]
-    
 test:
   imports:
     - monet
     - monet.plots
     - monet.util
-    
+
 about:
   home: https://github.com/noaa-oar-arl/monet
   license: MIT
